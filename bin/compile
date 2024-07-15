@@ -13,8 +13,6 @@ CACHE_DIR=$2
 LP_DIR=$(cd "$(dirname "$0")"; cd ..; pwd)
 
 bin_dir=$BUILD_DIR/spotify/bin
-
-topic "Making spotify/bin/playplay executable"
 chmod a+x $bin_dir/playplay
 
 function error() {
