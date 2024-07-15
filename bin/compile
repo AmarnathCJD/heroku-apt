@@ -12,7 +12,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 LP_DIR=$(cd "$(dirname "$0")"; cd ..; pwd)
 
-bin_dir=$BUILD_DIR/spotify/bin
+bin_dir=$BUILD_DIR/modules/spotify_/bin
 chmod a+x $bin_dir/playplay
 
 function error() {
